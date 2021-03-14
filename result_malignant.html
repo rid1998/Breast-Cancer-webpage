@@ -8,18 +8,15 @@
 <body>
     <h1>Result</h1>
     <p>The tumor is <b>Malignant</b></p>
-    <!--<form >
+    <form >
         <p>Does the patient have any family history of the cancer?</p>
-        <form action="result_malignant1.html/submit">
-  
-            <input type="submit" value="Yes" formacion = "/result_malignant2.html">
-            
-            <input type="submit" value="No" formaction="/result_malignant2.html">
-            
-          </form>
-    </form>-->
-    <p>Does the patient have any family history of the cancer?</p>
-    <input type=button onClick="location.href='result_malignant1.html'"
- value='Yes'>
+         <p>Does the patient have any family history of the cancer?</p>
+        <input type="radio" id="yes" name="response" value="yes">
+        <label for="yes">Yes</label><br>
+        <input type="radio" id="no" name="response" value="no">
+        <label for="no">No</label><br>
+        <input type="submit" value="Submit">
+    </form>
+    
 </body>
 </html>
